@@ -1,0 +1,15 @@
+/账号文件/*
+*.dat
+*.txd
+/上号设置/*
+Game.log
+password=jj135403jj.txt
+bb+20130211.txt
+config.ini
+username=2687033499.png
+掉线执行/*
+.idea/*
+TLZZ.iml
+/runtime/*
+
+
