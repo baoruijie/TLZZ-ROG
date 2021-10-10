@@ -11,8 +11,12 @@
 /TLZZ/TLZZ.iml
 /TLZZ/runtime/*
 
-/TLXM/*
-/TLXM/*/*
+/TLXM/游戏账号/*
+/TLXM/清包日志/*
+/TLXM/运行日志/*
+/TLXM/答题图片/*
+/TLXM/报警音乐/*
+/TLXM/登录文件/*
 
 
 
