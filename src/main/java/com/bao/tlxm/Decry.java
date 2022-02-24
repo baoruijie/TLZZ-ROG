@@ -26,7 +26,7 @@ public class Decry {
 
         String mingPath = prop.getProperty("path_ming");
 
-        String localDateTime = LocalDateTime.now().toString();
+        String localDateTime = LocalDateTime.now().toString().replaceAll("\\.|-|:", "");
         secPath = "src/main/resources/密文.txt";
         mingPath = mingPath + localDateTime+".txt";
         /*=========================================================================*/

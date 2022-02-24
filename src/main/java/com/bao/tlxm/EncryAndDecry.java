@@ -44,7 +44,7 @@ public class EncryAndDecry {
 		String secPath = prop.getProperty("path_sec");
 		String mingPath = prop.getProperty("path_ming");
 
-		String localDateTime =LocalDateTime.now().toString();
+		String localDateTime =LocalDateTime.now().toString().replaceAll("\\.|-|:", "");
 		secPath = secPath + localDateTime+".txt";
 		mingPath = mingPath + localDateTime+".txt";
 		String osPath = "";
