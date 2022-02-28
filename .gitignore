@@ -1,14 +1,21 @@
-/账号文件/*
-*.txd
-/上号设置/*
-Game.log
-password=jj135403jj.txt
-bb+20130211.txt
-config.ini
-username=2687033499.png
-掉线执行/*
-.idea/*
-TLZZ.iml
-/runtime/*
+/TLZZ/账号文件/*
+/TLZZ/*.txd
+/TLZZ/上号设置/*
+/TLZZ/Game.log
+/TLZZ/password=jj135403jj.txt
+/TLZZ/bb+20130211.txt
+/TLZZ/config.ini
+/TLZZ/username=2687033499.png
+/TLZZ/掉线执行/*
+/TLZZ/TLZZ.iml
+/TLZZ/runtime/*
+/TLXM/账号文件/*
+/TLXM/清包日志/*
+/TLXM/运行日志/*
+/TLXM/答题图片/*
+/TLXM/报警音乐/*
+/TLXM/登录文件/*
+
+
 
 
