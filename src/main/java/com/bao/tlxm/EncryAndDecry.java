@@ -62,13 +62,13 @@ public class EncryAndDecry {
 		String accountContent = Utils.getFileContent(sourcePath,encoding);
 		String secResult = Utils.encrypt(accountContent,salt,pswd);
 		System.out.println("加密后密文:" + secResult);
-		Utils.saveToFile(secResult, secPath);
+		//Utils.saveToFile(secResult, secPath);
 		/*=========================================================================*/
 		//解密
 		String secContent = Utils.getFileContent(secPath);
 		String ming_content = Utils.decrypt(secContent, salt, pswd);
 		System.out.println(ming_content);
-		Utils.saveToFile(ming_content,mingPath);
+		//Utils.saveToFile(ming_content,mingPath);
 	}
 
 }

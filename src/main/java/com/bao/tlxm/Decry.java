@@ -31,6 +31,7 @@ public class Decry {
         mingPath = mingPath + localDateTime+".txt";
         /*=========================================================================*/
         //解密
+        System.out.println("secPath"+secPath);
         String secContent = Utils.getFileContent(secPath);
         String ming_content = Utils.decrypt(secContent, salt, pswd);
         System.out.println(ming_content);

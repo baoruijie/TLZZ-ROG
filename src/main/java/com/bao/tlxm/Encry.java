@@ -39,10 +39,12 @@ public class Encry {
         String encoding = Utils.GetEncoding(new File(sourcePath));
 //加密
         /*=========================================================================*/
+        System.out.println("sourcePath=" + sourcePath);
         String accountContent = Utils.getFileContent(sourcePath,encoding);
         String secResult = Utils.encrypt(accountContent,salt,pswd);
+        System.out.println("secPath=" + secPath);
         System.out.println("加密后密文:" + secResult);
-        Utils.saveToFile(secResult, secPath);
+//        Utils.saveToFile(secResult, secPath);
 
 
     }
